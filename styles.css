@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+:root{
+	background-color:skyblue;
+}
+ul{
+	width:50%;
+}
+li:nth-child(2n){
+	background-color:slategray;
+}
+li:first-child{
+	background-color:white;
+}
+li:nth-child(3)
+{
+	background-color:pink;
+}
+li:last-child{
+	background-color:white;
+}
+span :first-child{
+	color:white;
+	background-color:black;
+}
+span :nth-child(4){
+	color:red;
+}
